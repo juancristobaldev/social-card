@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="./index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Social Card</title>
+  </head>
+  <body>
+    <main class="flex justify-center items-center px-3">
+      <div class="container-card rounded-xl bg-white shadow">
+        <div class="flex items-center justify-between p-3 px-4">
+          <div class="flex gap-3">
+            <img
+              class="rounded-full image cursor-pointer"
+              src="./src/84215DBA-C92E-48DA-9C0C-CC1853551093_1_201_a.jpeg"
+              width="50px"
+              height="50px"
+            />
+            <div class="cursor-pointer">
+              <h4 class="font-semibold">Juan Cristóbal</h4>
+              <p class="font-light text-gray-400">@holajuniors</p>
+            </div>
+          </div>
+          <i
+            class="fa-solid fa-ellipsis-vertical text-gray-400 cursor-pointer"
+          ></i>
+        </div>
+        <div class="image-post"></div>
+        <p class="p-3 text-sm">
+          <strong class="cursor-pointer">@holajuniors</strong> Estos desafíos
+          han sido creado especialmente para mejorar tus habilidades y
+          prepararte para el mundo real.
+        </p>
+        <div class="border-t flex justify-between p-2 px-3">
+          <div
+            class="cursor-pointer text-gray-500 flex items-center gap-2 hover:text-black"
+          >
+            <i class="fa-regular fa-message"></i>
+            <p>29</p>
+          </div>
+          <div
+            class="cursor-pointer text-gray-500 flex items-center gap-2 hover:text-black"
+          >
+            <i class="fa-regular fa-heart"></i>
+            <p>3459</p>
+          </div>
+          <div class="cursor-pointer items-center">
+            <i class="fa-solid fa-bookmark"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
